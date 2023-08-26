@@ -12,7 +12,7 @@ This is a simple **Gregorian** calendar generator wirtten in c++
 
 ### List of options
 ```
-<number>               : year (can be multipe years)
+<number>               : year (can be multiple years)
 <[start_year,end_year] : range of years
 -t <title>             : add custom title
 -d <text>              : add custom description
