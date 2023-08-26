@@ -12,14 +12,14 @@ This is a simple **Gregorian** calendar generator wirtten in c++
 
 ### List of options
 ```
-<number>               : year (can be multiple years)
-<[start_year,end_year] : range of years
--t <title>             : add custom title
--d <text>              : add custom description
--n <name>              : name of the output file (without .html)
--fs <font-size>        : font-size of title
---noexpand             : produce single year (no +-1 year)
---sort                 : sort input years
+<number>                : year (can be multiple years)
+<[start_year,end_year]> : range of years
+-t <title>              : add custom title
+-d <text>               : add custom description
+-n <name>               : name of the output file (without .html)
+-fs <font-size>         : font-size of title
+--noexpand              : produce single year (no +-1 year)
+--sort                  : sort input years
 ```
 ### Examples
 ```
