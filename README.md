@@ -1,9 +1,9 @@
 # Calendar generator
-This is simple Gregorian calendar generator coded in c++
+This is a simple **Gregorian** calendar generator wirtten in c++
 
 ## Installation
 - download repo
-- **make** at root folder
+- use **make** at root folder
 
 ## Usage
 ```
