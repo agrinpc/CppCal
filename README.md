@@ -2,10 +2,22 @@
 This is simple Gregorian calendar generator coded in c++
 
 ## Installation
-1 - download repo
-2 - **make** at root folder
+- download repo
+- **make** at root folder
 
 ## Usage
 ```
-./calgen
+./calgen [OPTIONS]
+```
+
+### List of options
+```
+<number>               : year (can be multipe years)
+<[start_year,end_year] : range of years
+-t <title>             : add custom title
+-d <text>              : add custom description
+-n <name>              : name of the output file (without .html)
+-fs <font-size>        : font-size of title
+--noexpand             : produce single year (no +-1 year)
+--sort                 : sort input years
 ```
