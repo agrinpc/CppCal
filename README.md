@@ -26,5 +26,5 @@ This is a simple **Gregorian** calendar generator wirtten in c++
 ./calgen
 ```
 ```
-./calgen 1998 2011 -d "sample text" -t title -fs 80 --sort 2015 [1800,1850]
+./calgen 1998 2011 -d "sample text" -t title -fs 80 --sort 2015 [1800,1850] -n new_calendar
 ```
