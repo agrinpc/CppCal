@@ -21,3 +21,10 @@ This is simple Gregorian calendar generator coded in c++
 --noexpand             : produce single year (no +-1 year)
 --sort                 : sort input years
 ```
+### Examples
+```
+./calgen
+```
+```
+./calgen 1998 2011 -d "sample text" -t title -fs 80 --sort 2015 [1800,1850]
+```
