@@ -69,11 +69,17 @@ static std::vector<int> parse_data(int argc, char **argv, t_data *data)
 		}
 		else if (arg == "-fs")
 		{
-			fs = std::atoi(argv[i + 1]);
-			if (fs && fs > 39 && fs < 121)
-				data->fs = fs;
+			if (argv[i + 1] && argv[i + 1][0])
+			{
+				fs = std::atoi(argv[i + 1]);
+				if (fs && fs > 39 && fs < 121)
+					data->fs = fs;
+				else
+					err.push_back(5);
+			}
 			else
 				err.push_back(5);
+
 		}
 		else if (arg[0] == '[' && arg[arg.length() - 1] == ']')
 		{
